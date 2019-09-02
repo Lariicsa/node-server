@@ -46,6 +46,10 @@ const server = http.createServer((request, response) => {
 	}
 })
 
+server.listen(8728, ()=>{
+	console.log(`corriendo en puerto: 8728`)
+})
+
 
 // const server  = http.createServer( (request, response) =>{
 // 	if (request.url === '/') {
